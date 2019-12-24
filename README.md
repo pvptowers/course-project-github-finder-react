@@ -19,9 +19,8 @@ This application was completed as part of the [Modern React Front To Back Course
 
 - To run the application on your local machine create a .env.local file in the root of the directory.
 - Request an API key from Github and in this file define your client ID and client secret:
-
-REACT_APP_GITHUB_CLIENT_ID=''
-REACT_APP_GITHUB_CLIENT_SECRET=''
+- REACT_APP_GITHUB_CLIENT_ID=''
+- REACT_APP_GITHUB_CLIENT_SECRET=''
 
 ## Run the application
 
