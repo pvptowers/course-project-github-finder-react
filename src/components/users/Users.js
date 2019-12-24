@@ -11,11 +11,13 @@ const Users = () => {
     return <Spinner />;
   } else {
     return (
-      <div style={userStyle}>
-        {" "}
-        {users.map(user => (
-          <UserItem key={user.id} user={user} />
-        ))}{" "}
+      <div className="container">
+        <div style={userStyle}>
+          {" "}
+          {users.map(user => (
+            <UserItem key={user.id} user={user} />
+          ))}{" "}
+        </div>
       </div>
     );
   }
